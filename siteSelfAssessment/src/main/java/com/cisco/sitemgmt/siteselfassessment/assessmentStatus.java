@@ -5,28 +5,46 @@ package com.cisco.sitemgmt.siteselfassessment;
  */
 
 @javax.persistence.Entity
-public class assessmentStatus implements java.io.Serializable {
+public class assessmentStatus implements java.io.Serializable
+{
 
-    static final long serialVersionUID = 1L;
+   static final long serialVersionUID = 1L;
 
-    @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "ASSESSMENTSTATUS_ID_GENERATOR")
-    @javax.persistence.Id
-    @javax.persistence.SequenceGenerator(name = "ASSESSMENTSTATUS_ID_GENERATOR", sequenceName = "ASSESSMENTSTATUS_ID_SEQ")
-    private java.lang.Long id;
+   @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "ASSESSMENTSTATUS_ID_GENERATOR")
+   @javax.persistence.Id
+   @javax.persistence.SequenceGenerator(name = "ASSESSMENTSTATUS_ID_GENERATOR", sequenceName = "ASSESSMENTSTATUS_ID_SEQ")
+   private java.lang.Long id;
 
-    public assessmentStatus() {
-    }
-    
-    public assessmentStatus(java.lang.Long id) {
-        this.id = id;
-    }
+   private java.lang.String status;
 
-    public java.lang.Long getId() {
-        return this.id;
-    }
-    
-    public void setId(java.lang.Long id) {
-        this.id = id;
-    }
+   public assessmentStatus()
+   {
+   }
+
+   public java.lang.Long getId()
+   {
+      return this.id;
+   }
+
+   public void setId(java.lang.Long id)
+   {
+      this.id = id;
+   }
+
+   public java.lang.String getStatus()
+   {
+      return this.status;
+   }
+
+   public void setStatus(java.lang.String status)
+   {
+      this.status = status;
+   }
+
+   public assessmentStatus(java.lang.Long id, java.lang.String status)
+   {
+      this.id = id;
+      this.status = status;
+   }
 
 }
