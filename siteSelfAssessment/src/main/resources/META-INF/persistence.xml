@@ -3,11 +3,11 @@
     <persistence-unit name="com.cisco.sitemgmt:siteSelfAssessment:1.0.0" transaction-type="JTA">
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
         <jta-data-source>java:/OracleDS1</jta-data-source>
-        <class>com.cisco.sitemgmt.siteselfassessment.assessmentItems</class>
+        <class>com.cisco.sitemgmt.siteselfassessment.FindingMitigationplan</class>
         <class>com.cisco.sitemgmt.siteselfassessment.siteAssessment</class>
         <class>com.cisco.sitemgmt.siteselfassessment.assessmentStatus</class>
-        <class>com.cisco.sitemgmt.siteselfassessment.FindingMitigationplan</class>
         <class>com.cisco.sitemgmt.siteselfassessment.FindingEvidence</class>
+        <class>com.cisco.sitemgmt.siteselfassessment.assessment</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
             <property name="hibernate.dialect" value="org.hibernate.dialect.Oracle10gDialect"/>
