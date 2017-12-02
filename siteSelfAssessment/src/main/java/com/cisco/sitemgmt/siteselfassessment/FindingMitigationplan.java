@@ -5,28 +5,87 @@ package com.cisco.sitemgmt.siteselfassessment;
  */
 
 @javax.persistence.Entity
-public class FindingMitigationplan implements java.io.Serializable {
+public class FindingMitigationplan implements java.io.Serializable
+{
 
-    static final long serialVersionUID = 1L;
+   static final long serialVersionUID = 1L;
 
-    @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "FINDINGMITIGATIONPLAN_ID_GENERATOR")
-    @javax.persistence.Id
-    @javax.persistence.SequenceGenerator(name = "FINDINGMITIGATIONPLAN_ID_GENERATOR", sequenceName = "FINDINGMITIGATIONPLAN_ID_SEQ")
-    private java.lang.Long id;
+   @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "FINDINGMITIGATIONPLAN_ID_GENERATOR")
+   @javax.persistence.Id
+   @javax.persistence.SequenceGenerator(name = "FINDINGMITIGATIONPLAN_ID_GENERATOR", sequenceName = "FINDINGMITIGATIONPLAN_ID_SEQ")
+   private java.lang.Long id;
 
-    public FindingMitigationplan() {
-    }
-    
-    public FindingMitigationplan(java.lang.Long id) {
-        this.id = id;
-    }
+   private java.lang.Integer siteAssessmentId;
 
-    public java.lang.Long getId() {
-        return this.id;
-    }
-    
-    public void setId(java.lang.Long id) {
-        this.id = id;
-    }
+   private java.lang.String stakeholder;
+
+   private java.lang.String securityTeam;
+
+   private java.lang.String plan;
+
+   public FindingMitigationplan()
+   {
+   }
+
+   public java.lang.Long getId()
+   {
+      return this.id;
+   }
+
+   public void setId(java.lang.Long id)
+   {
+      this.id = id;
+   }
+
+   public java.lang.Integer getSiteAssessmentId()
+   {
+      return this.siteAssessmentId;
+   }
+
+   public void setSiteAssessmentId(java.lang.Integer siteAssessmentId)
+   {
+      this.siteAssessmentId = siteAssessmentId;
+   }
+
+   public java.lang.String getStakeholder()
+   {
+      return this.stakeholder;
+   }
+
+   public void setStakeholder(java.lang.String stakeholder)
+   {
+      this.stakeholder = stakeholder;
+   }
+
+   public java.lang.String getSecurityTeam()
+   {
+      return this.securityTeam;
+   }
+
+   public void setSecurityTeam(java.lang.String securityTeam)
+   {
+      this.securityTeam = securityTeam;
+   }
+
+   public java.lang.String getPlan()
+   {
+      return this.plan;
+   }
+
+   public void setPlan(java.lang.String plan)
+   {
+      this.plan = plan;
+   }
+
+   public FindingMitigationplan(java.lang.Long id,
+         java.lang.Integer siteAssessmentId, java.lang.String stakeholder,
+         java.lang.String securityTeam, java.lang.String plan)
+   {
+      this.id = id;
+      this.siteAssessmentId = siteAssessmentId;
+      this.stakeholder = stakeholder;
+      this.securityTeam = securityTeam;
+      this.plan = plan;
+   }
 
 }
