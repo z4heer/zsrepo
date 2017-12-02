@@ -4,6 +4,7 @@
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
         <jta-data-source>java:/OracleDS1</jta-data-source>
         <class>com.cisco.sitemgmt.siteselfassessment.assessmentItems</class>
+        <class>com.cisco.sitemgmt.siteselfassessment.siteAssessment</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
             <property name="hibernate.dialect" value="org.hibernate.dialect.Oracle10gDialect"/>
