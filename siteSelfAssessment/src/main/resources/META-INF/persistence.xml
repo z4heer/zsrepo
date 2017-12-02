@@ -3,6 +3,7 @@
     <persistence-unit name="com.cisco.sitemgmt:siteSelfAssessment:1.0.0" transaction-type="JTA">
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
         <jta-data-source>java:/OracleDS1</jta-data-source>
+        <class>com.cisco.sitemgmt.siteselfassessment.assessmentItems</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
             <property name="hibernate.dialect" value="org.hibernate.dialect.Oracle10gDialect"/>
