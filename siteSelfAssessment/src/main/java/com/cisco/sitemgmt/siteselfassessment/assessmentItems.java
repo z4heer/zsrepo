@@ -21,6 +21,20 @@ public class assessmentItems implements java.io.Serializable
 
    private java.lang.String owner;
 
+   private java.lang.Boolean isStarted;
+
+   private java.lang.String stakeholder;
+
+   private java.lang.Boolean isSentToRemdOwner;
+
+   private java.lang.Boolean isOwnerActionDone;
+
+   private java.lang.Boolean isMitigationplanSent;
+
+   private java.lang.Boolean isEvidenceSenttoReview;
+
+   private java.lang.Boolean isSecurityReviewDone;
+
    public assessmentItems()
    {
    }
@@ -65,13 +79,96 @@ public class assessmentItems implements java.io.Serializable
       this.owner = owner;
    }
 
+   public java.lang.Boolean getIsStarted()
+   {
+      return this.isStarted;
+   }
+
+   public void setIsStarted(java.lang.Boolean isStarted)
+   {
+      this.isStarted = isStarted;
+   }
+
+   public java.lang.String getStakeholder()
+   {
+      return this.stakeholder;
+   }
+
+   public void setStakeholder(java.lang.String stakeholder)
+   {
+      this.stakeholder = stakeholder;
+   }
+
+   public java.lang.Boolean getIsSentToRemdOwner()
+   {
+      return this.isSentToRemdOwner;
+   }
+
+   public void setIsSentToRemdOwner(java.lang.Boolean isSentToRemdOwner)
+   {
+      this.isSentToRemdOwner = isSentToRemdOwner;
+   }
+
+   public java.lang.Boolean getIsOwnerActionDone()
+   {
+      return this.isOwnerActionDone;
+   }
+
+   public void setIsOwnerActionDone(java.lang.Boolean isOwnerActionDone)
+   {
+      this.isOwnerActionDone = isOwnerActionDone;
+   }
+
+   public java.lang.Boolean getIsMitigationplanSent()
+   {
+      return this.isMitigationplanSent;
+   }
+
+   public void setIsMitigationplanSent(java.lang.Boolean isMitigationplanSent)
+   {
+      this.isMitigationplanSent = isMitigationplanSent;
+   }
+
+   public java.lang.Boolean getIsEvidenceSenttoReview()
+   {
+      return this.isEvidenceSenttoReview;
+   }
+
+   public void setIsEvidenceSenttoReview(java.lang.Boolean isEvidenceSenttoReview)
+   {
+      this.isEvidenceSenttoReview = isEvidenceSenttoReview;
+   }
+
+   public java.lang.Boolean getIsSecurityReviewDone()
+   {
+      return this.isSecurityReviewDone;
+   }
+
+   public void setIsSecurityReviewDone(java.lang.Boolean isSecurityReviewDone)
+   {
+      this.isSecurityReviewDone = isSecurityReviewDone;
+   }
+
    public assessmentItems(java.lang.Long id, java.lang.String assessment,
-         java.lang.String status, java.lang.String owner)
+         java.lang.String status, java.lang.String owner,
+         java.lang.Boolean isStarted, java.lang.String stakeholder,
+         java.lang.Boolean isSentToRemdOwner,
+         java.lang.Boolean isOwnerActionDone,
+         java.lang.Boolean isMitigationplanSent,
+         java.lang.Boolean isEvidenceSenttoReview,
+         java.lang.Boolean isSecurityReviewDone)
    {
       this.id = id;
       this.assessment = assessment;
       this.status = status;
       this.owner = owner;
+      this.isStarted = isStarted;
+      this.stakeholder = stakeholder;
+      this.isSentToRemdOwner = isSentToRemdOwner;
+      this.isOwnerActionDone = isOwnerActionDone;
+      this.isMitigationplanSent = isMitigationplanSent;
+      this.isEvidenceSenttoReview = isEvidenceSenttoReview;
+      this.isSecurityReviewDone = isSecurityReviewDone;
    }
 
 }
