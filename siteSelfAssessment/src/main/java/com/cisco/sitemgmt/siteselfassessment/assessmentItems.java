@@ -5,28 +5,73 @@ package com.cisco.sitemgmt.siteselfassessment;
  */
 
 @javax.persistence.Entity
-public class assessmentItems implements java.io.Serializable {
+public class assessmentItems implements java.io.Serializable
+{
 
-    static final long serialVersionUID = 1L;
+   static final long serialVersionUID = 1L;
 
-    @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "ASSESSMENTITEMS_ID_GENERATOR")
-    @javax.persistence.Id
-    @javax.persistence.SequenceGenerator(name = "ASSESSMENTITEMS_ID_GENERATOR", sequenceName = "ASSESSMENTITEMS_ID_SEQ")
-    private java.lang.Long id;
+   @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "ASSESSMENTITEMS_ID_GENERATOR")
+   @javax.persistence.Id
+   @javax.persistence.SequenceGenerator(name = "ASSESSMENTITEMS_ID_GENERATOR", sequenceName = "ASSESSMENTITEMS_ID_SEQ")
+   private java.lang.Long id;
 
-    public assessmentItems() {
-    }
-    
-    public assessmentItems(java.lang.Long id) {
-        this.id = id;
-    }
+   private java.lang.String assessment;
 
-    public java.lang.Long getId() {
-        return this.id;
-    }
-    
-    public void setId(java.lang.Long id) {
-        this.id = id;
-    }
+   private java.lang.String status;
+
+   private java.lang.String owner;
+
+   public assessmentItems()
+   {
+   }
+
+   public java.lang.Long getId()
+   {
+      return this.id;
+   }
+
+   public void setId(java.lang.Long id)
+   {
+      this.id = id;
+   }
+
+   public java.lang.String getAssessment()
+   {
+      return this.assessment;
+   }
+
+   public void setAssessment(java.lang.String assessment)
+   {
+      this.assessment = assessment;
+   }
+
+   public java.lang.String getStatus()
+   {
+      return this.status;
+   }
+
+   public void setStatus(java.lang.String status)
+   {
+      this.status = status;
+   }
+
+   public java.lang.String getOwner()
+   {
+      return this.owner;
+   }
+
+   public void setOwner(java.lang.String owner)
+   {
+      this.owner = owner;
+   }
+
+   public assessmentItems(java.lang.Long id, java.lang.String assessment,
+         java.lang.String status, java.lang.String owner)
+   {
+      this.id = id;
+      this.assessment = assessment;
+      this.status = status;
+      this.owner = owner;
+   }
 
 }
