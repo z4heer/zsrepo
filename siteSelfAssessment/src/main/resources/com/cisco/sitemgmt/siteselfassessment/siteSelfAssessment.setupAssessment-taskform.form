@@ -1,0 +1,84 @@
+
+<form id="1690387466">
+<property name="name" value="siteSelfAssessment.setupAssessment-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="4" name="item_isOwnerActionDone" type="CheckBox" id="2003962450">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;isOwnerActionDone (item)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="item/isOwnerActionDone"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="7" name="item_isStarted" type="CheckBox" id="1875092210">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;isStarted (item)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="item/isStarted"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="1" name="item_id" type="InputTextLong" id="1282935243">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;id (item)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="item/id"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="2" name="item_isEvidenceSenttoReview" type="CheckBox" id="1156934177">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;isEvidenceSenttoReview (item)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="item/isEvidenceSenttoReview"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="5" name="item_isSecurityReviewDone" type="CheckBox" id="1060265863">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;isSecurityReviewDone (item)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="item/isSecurityReviewDone"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="9" name="item_stakeholder" type="InputText" id="1783365474">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;stakeholder (item)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="item/stakeholder"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="8" name="item_owner" type="InputText" id="560293295">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;owner (item)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="item/owner"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="10" name="item_status" type="InputText" id="1776433464">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;status (item)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="item/status"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="item_assessment" type="InputText" id="495544340">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;assessment (item)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="item/assessment"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="item_isSentToRemdOwner" type="CheckBox" id="2134049773">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;isSentToRemdOwner (item)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="item/isSentToRemdOwner"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="3" name="item_isMitigationplanSent" type="CheckBox" id="314051975">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;isMitigationplanSent (item)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="item/isMitigationplanSent"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<dataHolder inputId="" name="#E9E371" type="dataModelerEntry" outId="item" value="com.cisco.sitemgmt.siteselfassessment.assessment" id="item"/>
+</form>
