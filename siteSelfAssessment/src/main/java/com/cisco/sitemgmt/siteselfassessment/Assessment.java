@@ -171,7 +171,8 @@ public class Assessment implements java.io.Serializable
       this.isSecurityReviewDone = isSecurityReviewDone;
    }
 
-	public Assessment(String assessment, String owner) {
+	public Assessment(java.lang.Long id,String assessment, String owner) {
+		this.id = id;
 		this.assessment = assessment;
 		this.owner = owner;
 	}
