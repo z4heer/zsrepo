@@ -5,7 +5,7 @@ package com.cisco.sitemgmt.siteselfassessment;
  */
 
 @javax.persistence.Entity
-public class assessment implements java.io.Serializable
+public class Assessment implements java.io.Serializable
 {
 
    static final long serialVersionUID = 1L;
@@ -35,7 +35,7 @@ public class assessment implements java.io.Serializable
 
    private java.lang.Boolean isSecurityReviewDone;
 
-   public assessment()
+   public Assessment()
    {
    }
 
@@ -149,7 +149,7 @@ public class assessment implements java.io.Serializable
       this.isSecurityReviewDone = isSecurityReviewDone;
    }
 
-   public assessment(java.lang.Long id, java.lang.String assessment,
+   public Assessment(java.lang.Long id, java.lang.String assessment,
          java.lang.String status, java.lang.String owner,
          java.lang.Boolean isStarted, java.lang.String stakeholder,
          java.lang.Boolean isSentToRemdOwner,
