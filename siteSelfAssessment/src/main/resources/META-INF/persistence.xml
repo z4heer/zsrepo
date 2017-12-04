@@ -4,10 +4,10 @@
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
         <jta-data-source>java:/OracleDS1</jta-data-source>
         <class>com.cisco.sitemgmt.siteselfassessment.FindingMitigationplan</class>
-        <class>com.cisco.sitemgmt.siteselfassessment.siteAssessment</class>
-        <class>com.cisco.sitemgmt.siteselfassessment.assessmentStatus</class>
         <class>com.cisco.sitemgmt.siteselfassessment.FindingEvidence</class>
         <class>com.cisco.sitemgmt.siteselfassessment.Assessment</class>
+        <class>com.cisco.sitemgmt.siteselfassessment.SiteAssessment</class>
+        <class>com.cisco.sitemgmt.siteselfassessment.AssessmentStatus</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
             <property name="hibernate.dialect" value="org.hibernate.dialect.Oracle10gDialect"/>
