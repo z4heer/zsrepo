@@ -5,7 +5,7 @@ package com.cisco.sitemgmt.siteselfassessment;
  */
 
 @javax.persistence.Entity
-public class assessmentStatus implements java.io.Serializable
+public class AssessmentStatus implements java.io.Serializable
 {
 
    static final long serialVersionUID = 1L;
@@ -17,7 +17,7 @@ public class assessmentStatus implements java.io.Serializable
 
    private java.lang.String status;
 
-   public assessmentStatus()
+   public AssessmentStatus()
    {
    }
 
@@ -41,7 +41,7 @@ public class assessmentStatus implements java.io.Serializable
       this.status = status;
    }
 
-   public assessmentStatus(java.lang.Long id, java.lang.String status)
+   public AssessmentStatus(java.lang.Long id, java.lang.String status)
    {
       this.id = id;
       this.status = status;
