@@ -5,28 +5,168 @@ package com.cisco.sitemgmt.siteselfassessment;
  */
 
 @javax.persistence.Entity
-public class Findings implements java.io.Serializable {
+public class Findings implements java.io.Serializable
+{
 
-    static final long serialVersionUID = 1L;
+   static final long serialVersionUID = 1L;
 
-    @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "FINDINGS_ID_GENERATOR")
-    @javax.persistence.Id
-    @javax.persistence.SequenceGenerator(name = "FINDINGS_ID_GENERATOR", sequenceName = "FINDINGS_ID_SEQ")
-    private java.lang.Long id;
+   @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "FINDINGS_ID_GENERATOR")
+   @javax.persistence.Id
+   @javax.persistence.SequenceGenerator(name = "FINDINGS_ID_GENERATOR", sequenceName = "FINDINGS_ID_SEQ")
+   private java.lang.Long id;
 
-    public Findings() {
-    }
-    
-    public Findings(java.lang.Long id) {
-        this.id = id;
-    }
+   private java.lang.String description;
 
-    public java.lang.Long getId() {
-        return this.id;
-    }
-    
-    public void setId(java.lang.Long id) {
-        this.id = id;
-    }
+   private java.lang.String details;
+
+   private java.lang.String risk;
+
+   private java.lang.String rootCause;
+
+   private java.lang.String controlNumber;
+
+   private java.lang.String domain;
+
+   private java.lang.String subDomain;
+
+   private java.lang.String requirement;
+
+   private java.lang.String priority;
+
+   private java.lang.String suggRemendation;
+
+   public Findings()
+   {
+   }
+
+   public java.lang.Long getId()
+   {
+      return this.id;
+   }
+
+   public void setId(java.lang.Long id)
+   {
+      this.id = id;
+   }
+
+   public java.lang.String getDescription()
+   {
+      return this.description;
+   }
+
+   public void setDescription(java.lang.String description)
+   {
+      this.description = description;
+   }
+
+   public java.lang.String getDetails()
+   {
+      return this.details;
+   }
+
+   public void setDetails(java.lang.String details)
+   {
+      this.details = details;
+   }
+
+   public java.lang.String getRisk()
+   {
+      return this.risk;
+   }
+
+   public void setRisk(java.lang.String risk)
+   {
+      this.risk = risk;
+   }
+
+   public java.lang.String getRootCause()
+   {
+      return this.rootCause;
+   }
+
+   public void setRootCause(java.lang.String rootCause)
+   {
+      this.rootCause = rootCause;
+   }
+
+   public java.lang.String getControlNumber()
+   {
+      return this.controlNumber;
+   }
+
+   public void setControlNumber(java.lang.String controlNumber)
+   {
+      this.controlNumber = controlNumber;
+   }
+
+   public java.lang.String getDomain()
+   {
+      return this.domain;
+   }
+
+   public void setDomain(java.lang.String domain)
+   {
+      this.domain = domain;
+   }
+
+   public java.lang.String getSubDomain()
+   {
+      return this.subDomain;
+   }
+
+   public void setSubDomain(java.lang.String subDomain)
+   {
+      this.subDomain = subDomain;
+   }
+
+   public java.lang.String getRequirement()
+   {
+      return this.requirement;
+   }
+
+   public void setRequirement(java.lang.String requirement)
+   {
+      this.requirement = requirement;
+   }
+
+   public java.lang.String getPriority()
+   {
+      return this.priority;
+   }
+
+   public void setPriority(java.lang.String priority)
+   {
+      this.priority = priority;
+   }
+
+   public java.lang.String getSuggRemendation()
+   {
+      return this.suggRemendation;
+   }
+
+   public void setSuggRemendation(java.lang.String suggRemendation)
+   {
+      this.suggRemendation = suggRemendation;
+   }
+
+   public Findings(java.lang.Long id, java.lang.String description,
+         java.lang.String details, java.lang.String risk,
+         java.lang.String rootCause, java.lang.String controlNumber,
+         java.lang.String domain, java.lang.String subDomain,
+         java.lang.String requirement, java.lang.String priority,
+         java.lang.String suggRemendation)
+   {
+      this.id = id;
+      this.description = description;
+      this.details = details;
+      this.risk = risk;
+      this.rootCause = rootCause;
+      this.controlNumber = controlNumber;
+      this.domain = domain;
+      this.subDomain = subDomain;
+      this.requirement = requirement;
+      this.priority = priority;
+      this.suggRemendation = suggRemendation;
+   }
 
 }
