@@ -1,0 +1,128 @@
+
+<form id="1930472429">
+<property name="name" value="siteSelfAssessment.initWorkflow-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="7" name="lAssessment_isStarted" type="CheckBox" id="350556263">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;isStarted (lAssessment)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="lAssessment/isStarted"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="13" name="lSiteAssessment_id" type="InputTextLong" id="1564978181">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;id (lSiteAssessment)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="lSiteAssessment/id"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="6" name="lAssessment_isSentToRemdOwner" type="CheckBox" id="1436642598">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;isSentToRemdOwner (lAssessment)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="lAssessment/isSentToRemdOwner"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="1" name="lAssessment_id" type="InputTextLong" id="1537211447">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;id (lAssessment)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="lAssessment/id"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="10" name="lAssessment_status" type="InputText" id="1242057728">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;status (lAssessment)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="lAssessment/status"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="8" name="lAssessment_owner" type="InputText" id="47730802">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;owner (lAssessment)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="lAssessment/owner"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="16" name="lSiteAssessment_title" type="InputText" id="1383829301">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;title (lSiteAssessment)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="lSiteAssessment/title"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="9" name="lAssessment_stakeholder" type="InputText" id="960057206">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;stakeholder (lAssessment)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="lAssessment/stakeholder"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="lAssessment_isMitigationplanSent" type="CheckBox" id="1212034632">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;isMitigationplanSent (lAssessment)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="lAssessment/isMitigationplanSent"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="12" name="lSiteAssessment_auditTitle" type="InputText" id="980375894">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;auditTitle (lSiteAssessment)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="lSiteAssessment/auditTitle"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="15" name="lSiteAssessment_status" type="InputText" id="1656985370">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;status (lSiteAssessment)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="lSiteAssessment/status"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="lAssessment_isEvidenceSenttoReview" type="CheckBox" id="889333017">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;isEvidenceSenttoReview (lAssessment)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="lAssessment/isEvidenceSenttoReview"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="5" name="lAssessment_isSecurityReviewDone" type="CheckBox" id="1992321467">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;isSecurityReviewDone (lAssessment)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="lAssessment/isSecurityReviewDone"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="0" name="lAssessment_assessment" type="InputText" id="1126794548">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;assessment (lAssessment)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="lAssessment/assessment"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="lAssessment_isOwnerActionDone" type="CheckBox" id="1785598419">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;isOwnerActionDone (lAssessment)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="lAssessment/isOwnerActionDone"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="11" name="lAssessments" type="MultipleInput" id="794247626">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;lAssessments (lAssessments)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="lAssessments"/>
+<property name="fieldClass" value="java.util.List"/>
+</field>
+<field position="14" name="lSiteAssessment_stakeholder" type="InputText" id="928883267">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;stakeholder (lSiteAssessment)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="lSiteAssessment/stakeholder"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#E9E371" type="dataModelerEntry" outId="lAssessment" value="com.cisco.sitemgmt.siteselfassessment.Assessment" id="lAssessment"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="lAssessments" value="java.util.List" id="lAssessments"/>
+<dataHolder inputId="" name="#BBBBBB" type="dataModelerEntry" outId="lSiteAssessment" value="com.cisco.sitemgmt.siteselfassessment.SiteAssessment" id="lSiteAssessment"/>
+</form>
