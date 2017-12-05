@@ -8,6 +8,7 @@
         <class>com.cisco.sitemgmt.siteselfassessment.Assessment</class>
         <class>com.cisco.sitemgmt.siteselfassessment.SiteAssessment</class>
         <class>com.cisco.sitemgmt.siteselfassessment.AssessmentStatus</class>
+        <class>com.cisco.sitemgmt.siteselfassessment.Findings</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
             <property name="hibernate.dialect" value="org.hibernate.dialect.Oracle10gDialect"/>
