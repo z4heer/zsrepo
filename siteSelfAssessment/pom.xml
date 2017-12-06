@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.cisco.sitemgmt</groupId>
   <artifactId>siteSelfAssessment</artifactId>
-  <version>1.1.6</version>
+  <version>1.1.7</version>
   <packaging>kjar</packaging>
   <name>siteSelfAssessment</name>
   <description>Site Self Assessment</description>
