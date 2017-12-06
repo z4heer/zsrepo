@@ -1,0 +1,95 @@
+
+<form id="1902852577">
+<property name="name" value="assignFinding-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="2" name="aFindings_details" type="InputText" id="843541751">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;details (aFindings)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="lFindings/details"/>
+<property name="outputBinding" value="lFindings/details"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="aFindings_controlNumber" type="InputText" id="2104163864">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;controlNumber (aFindings)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="lFindings/controlNumber"/>
+<property name="outputBinding" value="lFindings/controlNumber"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="aFindings_domain" type="InputText" id="1663733577">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;domain (aFindings)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="lFindings/domain"/>
+<property name="outputBinding" value="lFindings/domain"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="aFindings_description" type="InputText" id="432322336">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;description (aFindings)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="lFindings/description"/>
+<property name="outputBinding" value="lFindings/description"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="aFindings_requirement" type="InputText" id="1575498047">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;requirement (aFindings)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="lFindings/requirement"/>
+<property name="outputBinding" value="lFindings/requirement"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="aFindings_priority" type="InputText" id="1082396589">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;priority (aFindings)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="lFindings/priority"/>
+<property name="outputBinding" value="lFindings/priority"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="7" name="aFindings_risk" type="InputText" id="2021704970">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;risk (aFindings)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="lFindings/risk"/>
+<property name="outputBinding" value="lFindings/risk"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="aFindings_id" type="InputTextLong" id="483622440">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;id (aFindings)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="lFindings/id"/>
+<property name="outputBinding" value="lFindings/id"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="8" name="aFindings_rootCause" type="InputText" id="337367072">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;rootCause (aFindings)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="lFindings/rootCause"/>
+<property name="outputBinding" value="lFindings/rootCause"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="10" name="aFindings_suggRemendation" type="InputText" id="2103383314">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;suggRemendation (aFindings)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="lFindings/suggRemendation"/>
+<property name="outputBinding" value="lFindings/suggRemendation"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="9" name="aFindings_subDomain" type="InputText" id="1642990977">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;subDomain (aFindings)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="lFindings/subDomain"/>
+<property name="outputBinding" value="lFindings/subDomain"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="lFindings" name="#0000A0" type="dataModelerEntry" outId="lFindings" value="com.cisco.sitemgmt.siteselfassessment.Findings" id="aFindings"/>
+</form>
