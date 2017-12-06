@@ -1,0 +1,79 @@
+
+<form id="10691325">
+<property name="name" value="securityReview-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="8" name="aEvidence_stakehoilder" type="InputText" id="1015057714">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;stakehoilder (aEvidence)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="aEvidence/stakehoilder"/>
+<property name="outputBinding" value="aEvidence/stakehoilder"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="aEvidence_owner" type="InputText" id="1830236243">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;owner (aEvidence)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="aEvidence/owner"/>
+<property name="outputBinding" value="aEvidence/owner"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="aEvidence_id" type="InputTextLong" id="1413183421">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;id (aEvidence)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="aEvidence/id"/>
+<property name="outputBinding" value="aEvidence/id"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="6" name="aEvidence_reviewed" type="CheckBox" id="1289395533">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;reviewed (aEvidence)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="aEvidence/reviewed"/>
+<property name="outputBinding" value="aEvidence/reviewed"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="2" name="aEvidence_closed" type="CheckBox" id="1093438500">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;closed (aEvidence)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="aEvidence/closed"/>
+<property name="outputBinding" value="aEvidence/closed"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="3" name="aEvidence_evidence" type="InputText" id="1522302197">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;evidence (aEvidence)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="aEvidence/evidence"/>
+<property name="outputBinding" value="aEvidence/evidence"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="aEvidence_approved" type="CheckBox" id="1495388763">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;approved (aEvidence)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="aEvidence/approved"/>
+<property name="outputBinding" value="aEvidence/approved"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="1" name="aEvidence_assessmentId" type="InputTextInteger" id="685595910">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;assessmentId (aEvidence)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="aEvidence/assessmentId"/>
+<property name="outputBinding" value="aEvidence/assessmentId"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="7" name="aEvidence_securityTeam" type="InputText" id="1237908854">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;securityTeam (aEvidence)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="aEvidence/securityTeam"/>
+<property name="outputBinding" value="aEvidence/securityTeam"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="aEvidence" name="#A7E690" type="dataModelerEntry" outId="aEvidence" value="com.cisco.sitemgmt.siteselfassessment.FindingEvidence" id="aEvidence"/>
+</form>
